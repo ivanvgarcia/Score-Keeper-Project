@@ -1,0 +1,59 @@
+body {
+	background-color: #e67300;
+	color: white;
+	text-align: center;
+	padding-top: 5em;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 2px;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	margin-top: 1px;
+	font-size: 2em;
+}
+
+p {
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+button {
+	background-color: #e67300;
+	color: white;
+	transition: background .4s;
+}
+
+button:hover {
+	background-color: #ffb366;
+}
+
+button,
+input[type="number"] {
+	padding: 10px;
+	border: solid 2px black;
+	border-radius: 8px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1em;
+}
+
+.winner {
+	color: #e67300;
+}
+
+.score-display {
+	background: white;
+	border: ridge 8px gray;
+	border-radius: 20px;
+	color: black;
+	padding: 50px;
+	width: 50%;
+	margin: 0 auto;
+}
